@@ -29,6 +29,7 @@ public class User implements Serializable {
 	private String role;
 	private boolean enabled;
 	private String responsibleOf;
+	private String weigt;
 	
 	@OneToMany(mappedBy="userSender")
 	private List<Message> messagesSent;
@@ -155,5 +156,14 @@ public class User implements Serializable {
 	public void setResponsibleOf(String responsibleOf) {
 		this.responsibleOf = responsibleOf;
 	}
+	public String getWeigt() {
+		return weigt;
+	}
+	public void setWeigt(String weigt) {
+		this.weigt = weigt;
+	}
+	
+	
+
    
 }
