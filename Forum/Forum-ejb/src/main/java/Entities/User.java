@@ -29,6 +29,7 @@ public class User implements Serializable {
 	private String role;
 	private boolean enabled;
 	private String responsibleOf;
+	private String responsibleOf1;
 	
 	@OneToMany(mappedBy="userSender")
 	private List<Message> messagesSent;
