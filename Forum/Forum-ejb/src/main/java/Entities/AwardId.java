@@ -19,6 +19,13 @@ private String testRebase;
 
 
 
+
+public String getTestRebase() {
+	return testRebase;
+}
+public void setTestRebase(String testRebase) {
+	this.testRebase = testRebase;
+}
 public Date getDate() {
 	return date;
 }
