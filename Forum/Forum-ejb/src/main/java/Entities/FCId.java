@@ -1,5 +1,5 @@
 package Entities;
-import java.io.Serializable;
+
 import java.io.Serializable;
 
 import javax.persistence.Embeddable;
