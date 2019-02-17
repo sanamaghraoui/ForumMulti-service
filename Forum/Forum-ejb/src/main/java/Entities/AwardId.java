@@ -14,7 +14,6 @@ public class AwardId implements Serializable {
 	private static final long serialVersionUID = 1L;
 private Integer idContent;
 private Integer idCast;
-private Date date;
 private String testRebase;
 
 
@@ -25,12 +24,6 @@ public String getTestRebase() {
 }
 public void setTestRebase(String testRebase) {
 	this.testRebase = testRebase;
-}
-public Date getDate() {
-	return date;
-}
-public void setDate(Date date) {
-	this.date = date;
 }
 public Integer getIdContent() {
 	return idContent;
@@ -48,7 +41,6 @@ public AwardId(Integer idContent, Integer idCast) {
 	super();
 	this.idContent = idContent;
 	this.idCast = idCast;
-	this.date = new Date();
 }
 @Override
 public int hashCode() {
