@@ -15,9 +15,17 @@ public class AwardId implements Serializable {
 private Integer idContent;
 private Integer idCast;
 private Date date;
+private String testRebase;
 
 
 
+
+public String getTestRebase() {
+	return testRebase;
+}
+public void setTestRebase(String testRebase) {
+	this.testRebase = testRebase;
+}
 public Date getDate() {
 	return date;
 }
