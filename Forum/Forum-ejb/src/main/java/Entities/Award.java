@@ -21,6 +21,7 @@ public class Award implements Serializable {
 	private String field;
 	private String value;
 	private String description;
+	private String description1;
 	
 	@ManyToOne
 	@JoinColumn(name="idContent",referencedColumnName="id",updatable=false,insertable=false)
